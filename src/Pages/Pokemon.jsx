@@ -36,7 +36,7 @@ const Pokemon = () => {
     useEffect ( () => {
          getPokemon();
       }, [])
-
+//
       if ( loading ) return ( 
         <div className="container">
         <h2>Cargando, Espere un momento...</h2>
